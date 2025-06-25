@@ -4357,13 +4357,13 @@ figcaption {
 }
 /* --- End Pricing Page Styles --- */
 
-.section-hero .heading-page {
-  margin-bottom: 0.2em;
+section.section-hero .heading-page {
+  margin-bottom: 0 !important;
 }
-.section-hero .subtitle {
-  margin-top: 0;
-  margin-bottom: 1.2em;
+section.section-hero .subtitle {
+  margin-top: 0 !important;
+  margin-bottom: 0.2em !important;
 }
-.section-hero {
-  padding-bottom: 1.5em;
+section.section-hero {
+  padding-bottom: 0 !important;
 }
