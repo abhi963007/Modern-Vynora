@@ -4352,7 +4352,7 @@ figcaption {
 @media (max-width: 991px) {
   .grid-pricing {
     grid-template-columns: 1fr;
-    gap: 2em;
+    gap: 1em;
   }
 }
 /* --- End Pricing Page Styles --- */
