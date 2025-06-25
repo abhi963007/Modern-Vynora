@@ -1778,26 +1778,6 @@ __p+='`),
             !!r.webkitFullscreenElement;
           e(d).attr("style", p ? "display: none !important;" : "");
         }
-        function f() {
-          var p = e('<a class="w-webflow-badge"></a>').attr(
-              "href",
-              "https://webflow.com?utm_campaign=brandjs",
-            ),
-            g = e("<img>")
-              .attr(
-                "src",
-                "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg",
-              )
-              .attr("alt", "")
-              .css({ marginRight: "4px", width: "26px" }),
-            _ = e("<img>")
-              .attr(
-                "src",
-                "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg",
-              )
-              .attr("alt", "Made in Webflow");
-          return (p.append(g, _), p[0]);
-        }
         function m() {
           var p = i.children(o),
             g = p.length && p.get(0) === d,
